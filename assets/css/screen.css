@@ -953,21 +953,21 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: rgba(255,255,255,0.8);
 }
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color:#fff;
 }
 
 .no-cover.main-header {
@@ -2159,7 +2159,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 
     .page-description {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         line-height: 1.5em;
     }
 
